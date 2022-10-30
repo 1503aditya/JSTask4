@@ -1,0 +1,47 @@
+.header,.footer,.sidebar,.mainContent,.extraContent{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header{
+    background-color: aqua;
+    height: 100px;;
+}
+.sidebar,.both{
+    display: inline-block;
+}
+.sidebar{
+    position: relative;
+    bottom: 260px;
+    margin-top: 10px;
+    background-color: aquamarine;
+    height :400px;
+    width: 400px;
+}
+.both{  
+    height: 400px;
+    width: 1095px;;
+    bottom: 400px;
+    left: 410px;  
+    
+}
+.mainContent{  
+    
+    margin-top: 10px;
+    margin-left: 10px ;
+    height: 250px;
+    background-color: bisque;
+    width: 1075px;   
+}
+.extraContent{
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: gray;
+    height: 140px;
+    width: 1075px;
+}
+.footer{
+    position: relative;
+    bottom: 260px;
+    height: 140px;
+    background-color: blueviolet;
+}

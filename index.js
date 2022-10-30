@@ -1,0 +1,9 @@
+$(".header").click(function(){
+    $(".header").css("background-color","red");
+})
+$(".sidebar").click(function(){
+    $("span").html("Leftbar");
+})
+$(".extraContent").click(function(){
+    $(".mainContent").fadeOut();
+})
